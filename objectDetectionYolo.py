@@ -1,8 +1,6 @@
 import cv2 as cv
 import numpy as np
 
-path = 'C:\\Users\\marco\\PycharmProjects\\pythonOpenCV\\Resources\\video1.mp4'
-
 cap = cv.VideoCapture(path)
 whT = 320
 confThreshold =0.5
